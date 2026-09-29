@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://cdftfhadnrk5a"]
+
+[ext_resource type="Script" uid="uid://b6p2n17iw1plf" path="res://tile_enemies/enemy_class.gd" id="1_5d4sy"]
+
+[node name="MiniEnemy" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 218.0
+offset_top = 152.0
+offset_right = 218.0
+offset_bottom = 152.0
+script = ExtResource("1_5d4sy")
+size_matrix = [[0, 0, 0, 1, 1, 1, 1], [1, 1, 1, 1]]
